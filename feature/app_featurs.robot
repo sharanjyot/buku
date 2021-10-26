@@ -26,4 +26,20 @@ Tap on tambah hutang piutang
          wait until keyword succeeds  3x  2sec  click element                       ${tambah_hutang_piutang}                               #CLICK ON tambah hutang piutang TAB
 
 Add amount Rp in membri tab
-         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element
+         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element    ${rp}
+         wait until keyword succeeds  2x  2sec  input text                          ${rp}  ${rp_amount}                                    #adding rp  membri tab
+
+Tap on the "Pilih dari buku kontak"
+         wait until keyword succeeds  3x  2sec  click element                       ${Pilih_dari_buku_kontak}                              #click on  Pilih dari buku kontak
+         wait until keyword succeeds  3x  2sec  click element                       ${IZINKAN}                                             #CLICK ON IZINKAN
+
+Pick the existing contact from the list
+         wait until keyword succeeds  3x  2sec  click element                        ${allow}                                              #giving contact permission to app
+         wait until keyword succeeds  3x  2sec  click element                        ${contact_sharan}                                     #selecting existing contact sharan
+
+Add notes and select dates[ defaulted]
+         wait until keyword succeeds  2x  2sec  input text                           ${note_field}   ${note_text}
+
+Tap on simpan transaksi
+         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element    ${simpan_transaksi}                                     #verifing if simpan_transaksi is present
+         wait until keyword succeeds  3x  2sec  click element                       ${simpan_transaksi}                                     #click on simpan_transaksi

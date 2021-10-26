@@ -28,3 +28,16 @@ ${otp_number}  1234
 ${hutang_tab}   xpath=//android.widget.TextView[@text='Hutang']
 ${tambah_hutang_piutang}  xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']
 
+##############            adding rp      ##############
+${rp}  xpath=//android.widget.EditText[@content-desc='Jumlah']
+${rp_amount}  100
+
+###########             "Pilih dari buku kontak"   #########
+${Pilih_dari_buku_kontak}    xpath=//android.widget.TextView[@text='Pilih dari buku kontak']
+${IZINKAN}                   xpath=//android.widget.TextView[@text='IZINKAN']
+##################add contact###################################
+${allow}                     xpath=//android.widget.Button[@text='ALLOW']
+${contact_sharan}            xpath=//android.widget.TextView[@text='sharan']
+${SIMPAN_TRANSAKSI}          xpath=//android.widget.TextView[@text='SIMPAN TRANSAKSI']
+${note_field}                xpath=//android.widget.TextView[@content-desc='Catatan']
+${note_text}                 testing boi

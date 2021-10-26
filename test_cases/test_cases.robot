@@ -14,5 +14,9 @@ Test-1 login into app > navigate to hutang tab > tap on tambah hutang piutang > 
             performing logina via otp with valid credentials
             Navigate to hutang tab
             Tap on tambah hutang piutang
-            Add amount Rp in membri tab.
+            Add amount Rp in membri tab
+            Tap on the "Pilih dari buku kontak"
+            Pick the existing contact from the list
+            Tap on simpan transaksi
+
 

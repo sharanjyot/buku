@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.1 (Python 3.8.2 on win32)" generated="20211027 00:20:58.503" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.1 (Python 3.8.2 on win32)" generated="20211027 01:56:26.609" rpa="false" schemaversion="2">
 <suite id="s1" name="Test Cases" source="D:\office docs\automation\BUKU\test_cases\test_cases.robot">
 <test id="s1-t1" name="Test-1 login into app &gt; navigate to hutang tab &gt; tap on tambah hutang piutang &gt; Add amount Rp &gt; tap on Pilih dari buku kontak &gt; Pick existing contact &gt; Add notes and select dates[">
 <kw name="launch bee cash app in android" library="app_featurs">
@@ -17,9 +17,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<status status="PASS" starttime="20211027 00:20:58.663" endtime="20211027 00:21:05.912"/>
+<status status="PASS" starttime="20211027 01:56:26.769" endtime="20211027 01:56:35.144"/>
 </kw>
-<status status="PASS" starttime="20211027 00:20:58.663" endtime="20211027 00:21:05.912"/>
+<status status="PASS" starttime="20211027 01:56:26.769" endtime="20211027 01:56:35.145"/>
 </kw>
 <kw name="performing logina via otp with valid credentials" library="app_featurs">
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
@@ -33,10 +33,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${phone_field}</arg>
 <arg>${phone_number}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:05.915" level="INFO">Typing text '7406792607' into text field 'xpath=//android.widget.EditText[@index='3']'</msg>
-<status status="PASS" starttime="20211027 00:21:05.913" endtime="20211027 00:21:09.369"/>
+<msg timestamp="20211027 01:56:35.147" level="INFO">Typing text '7406792607' into text field 'xpath=//android.widget.EditText[@index='3']'</msg>
+<status status="PASS" starttime="20211027 01:56:35.146" endtime="20211027 01:56:38.610"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:05.913" endtime="20211027 00:21:09.369"/>
+<status status="PASS" starttime="20211027 01:56:35.145" endtime="20211027 01:56:38.610"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -47,9 +47,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${country_change_option}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20211027 00:21:09.370" endtime="20211027 00:21:09.567"/>
+<status status="PASS" starttime="20211027 01:56:38.610" endtime="20211027 01:56:38.723"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:09.369" endtime="20211027 00:21:09.567"/>
+<status status="PASS" starttime="20211027 01:56:38.610" endtime="20211027 01:56:38.723"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -60,10 +60,10 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${country_change_option}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:09.569" level="INFO">Clicking element 'xpath=//android.view.ViewGroup[@content-desc='Pilih Daerah']'.</msg>
-<status status="PASS" starttime="20211027 00:21:09.567" endtime="20211027 00:21:10.041"/>
+<msg timestamp="20211027 01:56:38.725" level="INFO">Clicking element 'xpath=//android.view.ViewGroup[@content-desc='Pilih Daerah']'.</msg>
+<status status="PASS" starttime="20211027 01:56:38.724" endtime="20211027 01:56:39.275"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:09.567" endtime="20211027 00:21:10.041"/>
+<status status="PASS" starttime="20211027 01:56:38.723" endtime="20211027 01:56:39.276"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -74,17 +74,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${select_indian}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:10.043" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='India']'.</msg>
-<msg timestamp="20211027 00:21:10.077" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='India']' did not match any elements.</msg>
-<status status="FAIL" starttime="20211027 00:21:10.042" endtime="20211027 00:21:10.077"/>
+<msg timestamp="20211027 01:56:39.278" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='India']'.</msg>
+<msg timestamp="20211027 01:56:39.319" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='India']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:39.276" endtime="20211027 01:56:39.319"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${select_indian}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:12.087" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='India']'.</msg>
-<status status="PASS" starttime="20211027 00:21:12.086" endtime="20211027 00:21:12.560"/>
+<msg timestamp="20211027 01:56:41.326" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='India']'.</msg>
+<status status="PASS" starttime="20211027 01:56:41.324" endtime="20211027 01:56:41.843"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:10.042" endtime="20211027 00:21:12.560"/>
+<status status="PASS" starttime="20211027 01:56:39.276" endtime="20211027 01:56:41.843"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -95,17 +95,17 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${send_otp_button}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:12.562" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='OTP via SMS']'.</msg>
-<msg timestamp="20211027 00:21:12.609" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='OTP via SMS']' did not match any elements.</msg>
-<status status="FAIL" starttime="20211027 00:21:12.560" endtime="20211027 00:21:12.609"/>
+<msg timestamp="20211027 01:56:41.845" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='OTP via SMS']'.</msg>
+<msg timestamp="20211027 01:56:41.892" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='OTP via SMS']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:41.843" endtime="20211027 01:56:41.892"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${send_otp_button}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:14.620" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='OTP via SMS']'.</msg>
-<status status="PASS" starttime="20211027 00:21:14.619" endtime="20211027 00:21:14.657"/>
+<msg timestamp="20211027 01:56:43.898" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='OTP via SMS']'.</msg>
+<status status="PASS" starttime="20211027 01:56:43.896" endtime="20211027 01:56:43.935"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:12.560" endtime="20211027 00:21:14.657"/>
+<status status="PASS" starttime="20211027 01:56:41.843" endtime="20211027 01:56:43.935"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -116,9 +116,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${otp_field}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20211027 00:21:14.658" endtime="20211027 00:21:16.268"/>
+<status status="PASS" starttime="20211027 01:56:43.935" endtime="20211027 01:56:45.549"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:14.657" endtime="20211027 00:21:16.268"/>
+<status status="PASS" starttime="20211027 01:56:43.935" endtime="20211027 01:56:45.550"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>2x</arg>
@@ -131,12 +131,12 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <arg>${otp_field}</arg>
 <arg>${otp_number}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:16.270" level="INFO">Typing text '1234' into text field 'xpath=//android.widget.EditText[@index='0']'</msg>
-<status status="PASS" starttime="20211027 00:21:16.269" endtime="20211027 00:21:16.310"/>
+<msg timestamp="20211027 01:56:45.552" level="INFO">Typing text '1234' into text field 'xpath=//android.widget.EditText[@index='0']'</msg>
+<status status="PASS" starttime="20211027 01:56:45.550" endtime="20211027 01:56:45.592"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:16.269" endtime="20211027 00:21:16.310"/>
+<status status="PASS" starttime="20211027 01:56:45.550" endtime="20211027 01:56:45.592"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:05.913" endtime="20211027 00:21:16.310"/>
+<status status="PASS" starttime="20211027 01:56:35.145" endtime="20211027 01:56:45.592"/>
 </kw>
 <kw name="Navigate to hutang tab" library="app_featurs">
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
@@ -148,9 +148,9 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Wait Until Page Contains Element" library="AppiumLibrary">
 <arg>${hutang_tab}</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" starttime="20211027 00:21:16.311" endtime="20211027 00:21:20.572"/>
+<status status="PASS" starttime="20211027 01:56:45.593" endtime="20211027 01:56:50.234"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:16.310" endtime="20211027 00:21:20.572"/>
+<status status="PASS" starttime="20211027 01:56:45.593" endtime="20211027 01:56:50.234"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>3x</arg>
@@ -161,12 +161,12 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${hutang_tab}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:20.574" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='Hutang']'.</msg>
-<status status="PASS" starttime="20211027 00:21:20.572" endtime="20211027 00:21:21.204"/>
+<msg timestamp="20211027 01:56:50.236" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='Hutang']'.</msg>
+<status status="PASS" starttime="20211027 01:56:50.235" endtime="20211027 01:56:50.284"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:20.572" endtime="20211027 00:21:21.204"/>
+<status status="PASS" starttime="20211027 01:56:50.234" endtime="20211027 01:56:50.284"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:16.310" endtime="20211027 00:21:21.204"/>
+<status status="PASS" starttime="20211027 01:56:45.593" endtime="20211027 01:56:50.284"/>
 </kw>
 <kw name="Tap on tambah hutang piutang" library="app_featurs">
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
@@ -178,25 +178,170 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${tambah_hutang_piutang}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:21.206" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']'.</msg>
-<msg timestamp="20211027 00:21:21.240" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']' did not match any elements.</msg>
-<status status="FAIL" starttime="20211027 00:21:21.205" endtime="20211027 00:21:21.240"/>
+<msg timestamp="20211027 01:56:50.287" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']'.</msg>
+<msg timestamp="20211027 01:56:50.319" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:50.285" endtime="20211027 01:56:50.319"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${tambah_hutang_piutang}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20211027 00:21:23.248" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']'.</msg>
-<status status="PASS" starttime="20211027 00:21:23.247" endtime="20211027 00:21:23.306"/>
+<msg timestamp="20211027 01:56:52.335" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']'.</msg>
+<status status="PASS" starttime="20211027 01:56:52.333" endtime="20211027 01:56:52.391"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:21.205" endtime="20211027 00:21:23.306"/>
+<status status="PASS" starttime="20211027 01:56:50.285" endtime="20211027 01:56:52.391"/>
 </kw>
-<status status="PASS" starttime="20211027 00:21:21.204" endtime="20211027 00:21:23.306"/>
+<status status="PASS" starttime="20211027 01:56:50.285" endtime="20211027 01:56:52.391"/>
+</kw>
+<kw name="Add amount Rp in membri tab" library="app_featurs">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>Wait Until Page Contains Element</arg>
+<arg>${rp}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>${rp}</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20211027 01:56:52.392" endtime="20211027 01:56:53.851"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:52.392" endtime="20211027 01:56:53.851"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>2x</arg>
+<arg>2sec</arg>
+<arg>input text</arg>
+<arg>${rp}</arg>
+<arg>${rp_amount}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>${rp}</arg>
+<arg>${rp_amount}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:53.853" level="INFO">Typing text '100' into text field 'xpath=//android.widget.EditText[@content-desc='Jumlah']'</msg>
+<status status="PASS" starttime="20211027 01:56:53.851" endtime="20211027 01:56:54.418"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:53.851" endtime="20211027 01:56:54.418"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:52.392" endtime="20211027 01:56:54.418"/>
+</kw>
+<kw name="Tap on the &quot;Pilih dari buku kontak&quot;" library="app_featurs">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>click element</arg>
+<arg>${Pilih_dari_buku_kontak}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${Pilih_dari_buku_kontak}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:54.420" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='Pilih dari buku kontak']'.</msg>
+<status status="PASS" starttime="20211027 01:56:54.419" endtime="20211027 01:56:54.946"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:54.419" endtime="20211027 01:56:54.946"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>click element</arg>
+<arg>${IZINKAN}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${IZINKAN}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:54.948" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='IZINKAN']'.</msg>
+<msg timestamp="20211027 01:56:55.081" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='IZINKAN']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:54.946" endtime="20211027 01:56:55.081"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${IZINKAN}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:57.087" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='IZINKAN']'.</msg>
+<status status="PASS" starttime="20211027 01:56:57.085" endtime="20211027 01:56:57.104"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:54.946" endtime="20211027 01:56:57.104"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:54.418" endtime="20211027 01:56:57.104"/>
+</kw>
+<kw name="Pick the existing contact from the list" library="app_featurs">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>click element</arg>
+<arg>${allow}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${allow}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:57.107" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ALLOW']'.</msg>
+<msg timestamp="20211027 01:56:57.116" level="FAIL">ValueError: Element locator 'xpath=//android.widget.Button[@text='ALLOW']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:57.105" endtime="20211027 01:56:57.116"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${allow}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:59.121" level="INFO">Clicking element 'xpath=//android.widget.Button[@text='ALLOW']'.</msg>
+<status status="PASS" starttime="20211027 01:56:59.119" endtime="20211027 01:56:59.139"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:57.105" endtime="20211027 01:56:59.140"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>click element</arg>
+<arg>${contact_sharan}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${contact_sharan}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:56:59.142" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='sharan']'.</msg>
+<msg timestamp="20211027 01:56:59.169" level="FAIL">ValueError: Element locator 'xpath=//android.widget.TextView[@text='sharan']' did not match any elements.</msg>
+<status status="FAIL" starttime="20211027 01:56:59.140" endtime="20211027 01:56:59.169"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${contact_sharan}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:57:01.183" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='sharan']'.</msg>
+<status status="PASS" starttime="20211027 01:57:01.181" endtime="20211027 01:57:01.202"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:59.140" endtime="20211027 01:57:01.202"/>
+</kw>
+<status status="PASS" starttime="20211027 01:56:57.105" endtime="20211027 01:57:01.202"/>
+</kw>
+<kw name="Tap on simpan transaksi" library="app_featurs">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>Wait Until Page Contains Element</arg>
+<arg>${simpan_transaksi}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<arg>${simpan_transaksi}</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" starttime="20211027 01:57:01.203" endtime="20211027 01:57:01.833"/>
+</kw>
+<status status="PASS" starttime="20211027 01:57:01.203" endtime="20211027 01:57:01.834"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>2sec</arg>
+<arg>click element</arg>
+<arg>${simpan_transaksi}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>${simpan_transaksi}</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20211027 01:57:01.836" level="INFO">Clicking element 'xpath=//android.widget.TextView[@text='SIMPAN TRANSAKSI']'.</msg>
+<status status="PASS" starttime="20211027 01:57:01.834" endtime="20211027 01:57:01.886"/>
+</kw>
+<status status="PASS" starttime="20211027 01:57:01.834" endtime="20211027 01:57:01.887"/>
+</kw>
+<status status="PASS" starttime="20211027 01:57:01.202" endtime="20211027 01:57:01.887"/>
 </kw>
 <doc>make payment</doc>
 <tag>payment</tag>
-<status status="PASS" starttime="20211027 00:20:58.662" endtime="20211027 00:21:23.307"/>
+<status status="PASS" starttime="20211027 01:56:26.768" endtime="20211027 01:57:01.887"/>
 </test>
-<status status="PASS" starttime="20211027 00:20:58.504" endtime="20211027 00:21:23.307"/>
+<status status="PASS" starttime="20211027 01:56:26.610" endtime="20211027 01:57:01.888"/>
 </suite>
 <statistics>
 <total>
@@ -210,7 +355,7 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20211027 00:20:58.520" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+<msg timestamp="20211027 01:56:26.627" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
@@ -221,7 +366,7 @@ PYTHONPATH:
   C:\Program Files\Python38
   C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
   C:\Program Files\Python38\lib\site-packages</msg>
-<msg timestamp="20211027 00:20:58.657" level="ERROR">Error in file 'D:\office docs\automation\BUKU\feature\app_featurs.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+<msg timestamp="20211027 01:56:26.762" level="ERROR">Error in file 'D:\office docs\automation\BUKU\feature\app_featurs.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
@@ -232,7 +377,7 @@ PYTHONPATH:
   C:\Program Files\Python38
   C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
   C:\Program Files\Python38\lib\site-packages</msg>
-<msg timestamp="20211027 00:20:58.660" level="ERROR">Error in file 'D:\office docs\automation\BUKU\locators\app_locators.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+<msg timestamp="20211027 01:56:26.766" level="ERROR">Error in file 'D:\office docs\automation\BUKU\locators\app_locators.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
