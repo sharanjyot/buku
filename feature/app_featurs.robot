@@ -3,7 +3,7 @@
 Library     DatabaseLibrary
 Library     AppiumLibrary   run_on_failure=Nothing
 Library     Collections
-Resource     ./buku/locators/app_locators.robot
+Resource     ../locators/app_locators.robot
 *** Keywords ***
 
 launch bee cash app in android

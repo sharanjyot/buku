@@ -1,30 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.1 (Python 3.8.2 on win32)" generated="20211026 21:12:20.742" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.1 (Python 3.8.2 on win32)" generated="20211026 22:27:24.556" rpa="false" schemaversion="2">
 <suite id="s1" name="Test Cases" source="D:\office docs\automation\BUKU\test_cases\test_cases.robot">
 <test id="s1-t1" name="Test-1 login into app &gt; navigate to hutang tab &gt; tap on tambah hutang piutang &gt; Add amount Rp &gt; tap on Pilih dari buku kontak &gt; Pick existing contact &gt; Add notes and select dates[">
-<kw name="launch bee cash app in android">
-<msg timestamp="20211026 21:12:20.888" level="FAIL">No keyword with name 'launch bee cash app in android' found.</msg>
-<status status="FAIL" starttime="20211026 21:12:20.888" endtime="20211026 21:12:20.888"/>
+<kw name="launch bee cash app in android" library="app_featurs">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>remote_url=${DEV.APPIUM_SERVER}</arg>
+<arg>platformName=${DEV.PLATFORM_NAME}</arg>
+<arg>platformVersion=${DEV.PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEV.DEVICE_NAME}</arg>
+<arg>automationName=${automationName}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20211026 22:27:24.706" endtime="20211026 22:27:35.747"/>
+</kw>
+<status status="PASS" starttime="20211026 22:27:24.706" endtime="20211026 22:27:35.747"/>
 </kw>
 <doc>make payment</doc>
 <tag>payment</tag>
-<status status="FAIL" starttime="20211026 21:12:20.885" endtime="20211026 21:12:20.889">No keyword with name 'launch bee cash app in android' found.</status>
+<status status="PASS" starttime="20211026 22:27:24.705" endtime="20211026 22:27:35.747"/>
 </test>
-<status status="FAIL" starttime="20211026 21:12:20.743" endtime="20211026 21:12:20.889"/>
+<status status="PASS" starttime="20211026 22:27:24.557" endtime="20211026 22:27:35.749"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1" skip="0">payment</stat>
+<stat pass="1" fail="0" skip="0">payment</stat>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Test Cases">Test Cases</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Cases">Test Cases</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20211026 21:12:20.759" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+<msg timestamp="20211026 22:27:24.573" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
 Traceback (most recent call last):
   None
 PYTHONPATH:
@@ -35,6 +50,27 @@ PYTHONPATH:
   C:\Program Files\Python38
   C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
   C:\Program Files\Python38\lib\site-packages</msg>
-<msg timestamp="20211026 21:12:20.885" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 6: Resource file 'automation\buku\feature\app_featurs.robot' does not exist.</msg>
+<msg timestamp="20211026 22:27:24.701" level="ERROR">Error in file 'D:\office docs\automation\BUKU\feature\app_featurs.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  D:\office docs\automation\BUKU\test_cases
+  C:\Program Files\Python38\python38.zip
+  C:\Program Files\Python38\DLLs
+  C:\Program Files\Python38\lib
+  C:\Program Files\Python38
+  C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
+  C:\Program Files\Python38\lib\site-packages</msg>
+<msg timestamp="20211026 22:27:24.704" level="ERROR">Error in file 'D:\office docs\automation\BUKU\locators\app_locators.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  D:\office docs\automation\BUKU\test_cases
+  C:\Program Files\Python38\python38.zip
+  C:\Program Files\Python38\DLLs
+  C:\Program Files\Python38\lib
+  C:\Program Files\Python38
+  C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
+  C:\Program Files\Python38\lib\site-packages</msg>
 </errors>
 </robot>

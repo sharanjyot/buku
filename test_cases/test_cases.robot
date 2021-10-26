@@ -3,7 +3,7 @@
 Library     DatabaseLibrary
 Library     AppiumLibrary   run_on_failure=Nothing
 Library     Collections
-Resource    ./buku/feature/app_featurs.robot
+Resource    ../feature/app_featurs.robot
 
 *** Test Cases ***
 
