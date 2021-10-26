@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.8.2 on win32)" generated="20211026 21:12:20.742" rpa="false" schemaversion="2">
+<suite id="s1" name="Test Cases" source="D:\office docs\automation\BUKU\test_cases\test_cases.robot">
+<test id="s1-t1" name="Test-1 login into app &gt; navigate to hutang tab &gt; tap on tambah hutang piutang &gt; Add amount Rp &gt; tap on Pilih dari buku kontak &gt; Pick existing contact &gt; Add notes and select dates[">
+<kw name="launch bee cash app in android">
+<msg timestamp="20211026 21:12:20.888" level="FAIL">No keyword with name 'launch bee cash app in android' found.</msg>
+<status status="FAIL" starttime="20211026 21:12:20.888" endtime="20211026 21:12:20.888"/>
+</kw>
+<doc>make payment</doc>
+<tag>payment</tag>
+<status status="FAIL" starttime="20211026 21:12:20.885" endtime="20211026 21:12:20.889">No keyword with name 'launch bee cash app in android' found.</status>
+</test>
+<status status="FAIL" starttime="20211026 21:12:20.743" endtime="20211026 21:12:20.889"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">payment</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Cases">Test Cases</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211026 21:12:20.759" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 3: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  D:\office docs\automation\BUKU\test_cases
+  C:\Program Files\Python38\python38.zip
+  C:\Program Files\Python38\DLLs
+  C:\Program Files\Python38\lib
+  C:\Program Files\Python38
+  C:\Users\shara\AppData\Roaming\Python\Python38\site-packages
+  C:\Program Files\Python38\lib\site-packages</msg>
+<msg timestamp="20211026 21:12:20.885" level="ERROR">Error in file 'D:\office docs\automation\BUKU\test_cases\test_cases.robot' on line 6: Resource file 'automation\buku\feature\app_featurs.robot' does not exist.</msg>
+</errors>
+</robot>
