@@ -13,5 +13,6 @@ Test-1 login into app > navigate to hutang tab > tap on tambah hutang piutang > 
             launch bee cash app in android
             performing logina via otp with valid credentials
             Navigate to hutang tab
-
+            Tap on tambah hutang piutang
+            Add amount Rp in membri tab.
 

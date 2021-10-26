@@ -19,4 +19,11 @@ performing logina via otp with valid credentials
            wait until keyword succeeds  2x  2sec  input text                        ${otp_field}  ${otp_number}                           # entering otp
 
 Navigate to hutang tab
-         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element    ${hutang_tab}
+         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element    ${hutang_tab}                                         #Navigate to hutang tab
+         wait until keyword succeeds  3x  2sec  click element                       ${hutang_tab}
+
+Tap on tambah hutang piutang
+         wait until keyword succeeds  3x  2sec  click element                       ${tambah_hutang_piutang}                               #CLICK ON tambah hutang piutang TAB
+
+Add amount Rp in membri tab
+         wait until keyword succeeds  3x  2sec  Wait Until Page Contains Element

@@ -24,5 +24,7 @@ ${PHONE_NUMBER}  7406792607
 ${otp_field}  xpath=//android.widget.EditText[@index='0']
 ${otp_number}  1234
 
-
+####################               Tap on tambah hutang piutang .          ####################
 ${hutang_tab}   xpath=//android.widget.TextView[@text='Hutang']
+${tambah_hutang_piutang}  xpath=//android.widget.TextView[@text='TAMBAH HUTANG PIUTANG']
+
