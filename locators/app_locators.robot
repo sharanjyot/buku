@@ -13,3 +13,16 @@ ${APP_LOCATION} =  C:\Users\shara\OneDrive\Desktop\buku.apk
 ${automationName} =  UiAutomator2
 ${appPackage} =  com.beecash.app
 ${appActivity} =  com.beecash.app.MainActivity
+
+
+###### login via otp  ######
+${phone_field}   xpath=//android.widget.EditText[@index='3']
+${country_change_option}  xpath=//android.view.ViewGroup[@content-desc='Pilih Daerah']         # xpath=//android.view.ViewGroup[@index='3']/android.view.ViewGroup[@index='0']/android.view.ViewGroup[index='0']/android,widget.ImageView[index='0']
+${send_otp_button}  xpath=//android.widget.TextView[@text='OTP via SMS']
+${select_indian}  xpath=//android.widget.TextView[@text='India']
+${PHONE_NUMBER}  7406792607
+${otp_field}  xpath=//android.widget.EditText[@index='0']
+${otp_number}  1234
+
+
+${hutang_tab}   xpath=//android.widget.TextView[@text='Hutang']
